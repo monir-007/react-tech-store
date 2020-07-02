@@ -3,6 +3,7 @@
 :root {
   --primaryColor: #87c4e1;
   --primaryRGBA: rgba(0, 0, 0, 0.3);
+  --primaryBG: rgba(52, 55, 90, 0.4);
   --mainGrey: #eae9e9;
   --darkGrey: #5f5e5e;
   --mainWhite: #fafafa;
@@ -38,8 +39,8 @@ body {
   transition: var(--mainTransition);
 }
 .main-link:hover {
-  background: var(--darkGrey);
+  background: #c3e3c8;
   text-decoration: none;
-  color: var(--primaryColor);
-  outline-color: var(--darkGrey);
+  color: var(--darkGrey);
+  outline-color: #c3e3c8;
 }
