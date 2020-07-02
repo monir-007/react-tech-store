@@ -3,8 +3,8 @@
 :root {
   --primaryColor: #87c4e1;
   --primaryRGBA: rgba(0, 0, 0, 0.3);
-  --mainGray: #eae9e9;
-  --darkGray: #5f5e5e;
+  --mainGrey: #eae9e9;
+  --darkGrey: #5f5e5e;
   --mainWhite: #fafafa;
   --mainBlack: #222;
   --mainTransition: all 0.3s ease-in-out;
@@ -13,7 +13,7 @@
 
 body {
   font-family: "Montserrat", sans-serif !important;
-  background: var(--mainGray) !important;
+  background: var(--mainGrey) !important;
   color: var(--mainBlack);
 }
 .text-title {
