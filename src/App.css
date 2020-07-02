@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Source+Sans+Pro:wght@400;600&family=Ubuntu:wght@400;700&display=swap");
+
+:root {
+  --primaryColor: #87c4e1;
+  --primaryRGBA: rgba(0, 0, 0, 0.3);
+  --mainGray: #eae9e9;
+  --darkGray: #5f5e5e;
+  --mainWhite: #fafafa;
+  --mainBlack: #222;
+  --mainTransition: all 0.3s ease-in-out;
+  --mainSpacing: 0.3rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background: var(--mainGray) !important;
+  color: var(--mainBlack);
+}
+.text-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+.text-main {
+  color: var(--primaryColor);
+}

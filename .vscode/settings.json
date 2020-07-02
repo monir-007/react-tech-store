@@ -1,0 +1,8 @@
+{
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "atomKeymap.promptV3Features": false,
+    "emmet.includeLanguages": {
+    
+    }
+}
