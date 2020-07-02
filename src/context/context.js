@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {linkData} from './linkData'
+import { linkData } from "./linkData";
 
 const ProductContext = React.createContext();
 
@@ -10,8 +10,9 @@ class ProductProvider extends Component {
   state = {
     sidebarOpen: false,
     cartOpen: false,
-    cartItems:0,
-    links:linkData
+    cartItems: 3,
+    cart: [],
+    links: linkData,
   };
 
   //handle Sidebar
@@ -20,17 +21,17 @@ class ProductProvider extends Component {
   };
 
   //handle CartOpen
-  handleSidecart = () => {
-    this.setState({ cartOpen: !this.state.cartOpen });
+  handleCart = () => {
+    this.setState({ cartOpen: !this.state.sidebarOpen });
   };
 
   //close cart
-  CloseCart = () => {
+  closeCart = () => {
     this.setState({ cartOpen: false });
   };
 
   //open
-  OpenCart = () => {
+  openCart = () => {
     this.setState({ cartOpen: true });
   };
 
@@ -40,9 +41,9 @@ class ProductProvider extends Component {
         value={{
           ...this.state,
           handleSidebar: this.handleSidebar,
-          handleSidecart: this.handleSidecart,
-          CloseCart: this.CloseCart,
-          OpenCart: this.OpenCart,
+          handleCart: this.handleCart,
+          closeCart: this.closeCart,
+          openCart: this.openCart,
         }}
       >
         {this.props.children}

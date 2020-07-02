@@ -24,7 +24,6 @@ function App() {
       <Navbar />
       <Sidebar />
       <SideCart />
-      <Footer /> 
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
@@ -34,6 +33,7 @@ function App() {
         <Route path="/cart" component={Cart} />
         <Route component={Default} />
       </Switch>
+      <Footer />
     </>
   );
 }
