@@ -41,7 +41,7 @@ export default class Services extends Component {
                   key={item.id}
                 >
                   <div className="service-icon">{item.icon}</div>
-                  <h4 className="mt-3 text-capitalize">{item.title}</h4>
+                  <h5 className="mt-3 text-capitalize">{item.title}</h5>
                   <div className="mt-3">{item.text}</div>
                 </div>
               );
