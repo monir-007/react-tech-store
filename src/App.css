@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Source+Sans+Pro:wght@400;600&family=Ubuntu:wght@400;700&display=swap");
 
 :root {
-  --primaryColor: #87c4e1;
+  --primaryColor: #93c9e4;
   --primaryRGBA: rgba(0, 0, 0, 0.3);
   --primaryBG: rgba(52, 55, 90, 0.4);
   --mainGrey: #eae9e9;
@@ -28,19 +28,19 @@ body {
 }
 .main-link {
   padding: 0.5rem 1rem;
-  background: var(--primaryColor);
-  color: var(--mainWhite);
+  background: #c3e3c8;
+  color: var(--darkGrey);
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  outline: 2px solid var(--primaryColor);
+  outline: 2px solid #c3e3c8;
   outline-offset: 3px;
   border: none;
   transition: var(--mainTransition);
 }
 .main-link:hover {
-  background: #c3e3c8;
+  background: var(--primaryColor);
   text-decoration: none;
   color: var(--darkGrey);
-  outline-color: #c3e3c8;
+  outline-color: var(--primaryColor);
 }

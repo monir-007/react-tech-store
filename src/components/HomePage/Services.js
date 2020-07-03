@@ -41,7 +41,7 @@ export default class Services extends Component {
                   key={item.id}
                 >
                   <div className="service-icon">{item.icon}</div>
-                  <div className="mt-3 text-capitalize">{item.title}</div>
+                  <h4 className="mt-3 text-capitalize">{item.title}</h4>
                   <div className="mt-3">{item.text}</div>
                 </div>
               );
@@ -54,11 +54,14 @@ export default class Services extends Component {
 }
 
 const ServicesWrapper = styled.section`
-  background: rgba(95, 183, 234, 0.5);
+  background: rgba(188, 238, 251, 0.6);
 
   .service-icon {
     font-size: 2.5rem;
-    color: var(--primaryColor);
+    color: #21364b;
+  }
+  h4 {
+    color: #20222e;
   }
   p {
     color: var(--darkGrey);
