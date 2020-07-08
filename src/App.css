@@ -29,12 +29,12 @@ body {
 }
 .main-link {
   padding: 0.5rem 1rem;
-  background: #c3e3c8;
+  background: #68e85d;
   color: var(--darkGrey);
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  outline: 2px solid #c3e3c8;
+  outline: 2px solid #68e85d;
   outline-offset: 3px;
   border: none;
   transition: var(--mainTransition);
