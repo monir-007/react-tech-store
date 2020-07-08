@@ -16,9 +16,15 @@ export default function CartTotals() {
                 >
                   clear cart
                 </button>
-                <h3>subtotal: ${cartSubTotal}</h3>
-                <h3>Tax: ${cartTax}</h3>
-                <h3>total: ${cartTotal}</h3>
+                <h4 style={{ letterSpacing: "0.1rem", fontFamily: "Roboto" }}>
+                  subtotal: ${cartSubTotal}
+                </h4>
+                <h4 style={{ letterSpacing: "0.1rem", fontFamily: "Roboto" }}>
+                  Tax: ${cartTax}
+                </h4>
+                <h4 style={{ letterSpacing: "0.1rem", fontFamily: "Roboto" }}>
+                  total: ${cartTotal}
+                </h4>
               </div>
             );
           }}
