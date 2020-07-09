@@ -14,8 +14,10 @@ export default function SideCart() {
               {cart.map((item) => {
                 return (
                   <li key={item.id} className="cart-item mb-4">
+                    {/* local storage*/}
                     <img
                       width="35"
+               
                       //src={`../${item.image}`}
                       src={item.image}
                       alt="cart item"
