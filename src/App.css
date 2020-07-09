@@ -10,7 +10,7 @@
   --mainWhite: #fafafa;
   --mainBlack: #222;
   --mainTransition: all 0.3s ease-in-out;
-  --mainSpacing: 0.3rem;
+  --mainSpacing: 0.2rem;
 }
 
 body {
@@ -29,12 +29,13 @@ body {
 }
 .main-link {
   padding: 0.5rem 1rem;
-  background: #68e85d;
-  color: var(--darkGrey);
+  background: #f45555;
+  color: #303445;
   display: inline-block;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  outline: 2px solid #68e85d;
+  outline: 2px solid #f45555;
   outline-offset: 3px;
   border: none;
   transition: var(--mainTransition);
